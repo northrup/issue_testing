@@ -4,14 +4,14 @@ title: "PR Media Involvement for [event name]"
 labels: ["Corporate Event", "PR Request", "Events"]
 
 body:
-  - type: textarea
+  - type: input
     id: event-name
     validations:
       required: true
     attributes:
       label: What is the event?
 
-  - type: textarea
+  - type: input
     id: event-epic
     validations:
       required: true
@@ -20,7 +20,7 @@ body:
       description: |
         Place a link to the issue epic.
 
-  - type: textarea
+  - type: input
     id: event-campaign-tag
     validations:
       required: false
