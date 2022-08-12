@@ -33,7 +33,7 @@ body:
     validations:
       required: true
     attributes:
-      label: :girl: Who?
+      label: "Who?"
       value: |
         * Who are we trying to bring to the event?
         * Contact info for guest(s)
@@ -49,7 +49,7 @@ body:
   - type: textarea
     id: cost_payment
     attributes:
-      label: ":moneybag: Cost / Payment"
+      label: "Cost / Payment"
       value: |
         * What fees are involved? Will we be paying for their travel? Will we need to pay for setup? Power? Internet? AV?
         * Have they been setup in tilapi? DRI will be responsible for setting up billing with vendor and setting budgeting expectations with planning team
@@ -58,19 +58,19 @@ body:
   - type: textarea
     id: onsite_requirements
     attributes:
-      label: ":microphone: Onsite Requirements: Space, Time, Special Arrangements."
+      label: "Onsite Requirements: Space, Time, Special Arrangements."
       value: |
         * Does guest need private space? What other needs or requiremnent must be met for them onsite?
 
   - type: textarea
     id: shipping
     attributes:
-      label: ":package: Shipping"
+      label: "Shipping"
       value: |
         * Will they be shipping anythigng to the venue?
 
   - type: textarea
     id: planning
     attributes:
-      label: ":paperclip: Anything else planning team needs to know?"
+      label: "Anything else planning team needs to know?"
 
