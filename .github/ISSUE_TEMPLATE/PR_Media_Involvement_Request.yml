@@ -82,13 +82,13 @@ body:
         #         - label: Stickers
         #         - label: Key Chains
         # 
-  - type: dropdown
-    id: alcohol
-    attributes:
-      label: Will you need to sponsor alcohol?
-      options:
-        - Yes
-        - No
+        #   - type: dropdown
+        #     id: alcohol
+        #     attributes:
+        #       label: Will you need to sponsor alcohol?
+        #       options:
+        #         - Yes
+        #         - No
 
   - type: textarea
     id: planning
