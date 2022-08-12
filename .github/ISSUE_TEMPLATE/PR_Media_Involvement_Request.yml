@@ -89,8 +89,10 @@ body:
       multiple: false
       options:
         - Yes
+        - No
 
   - type: textarea
     id: planning
     attributes:
       label: "Anything else planning team needs to know?"
+
