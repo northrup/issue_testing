@@ -70,25 +70,25 @@ body:
       value: |
         * Will they be shipping anythigng to the venue?
 
-   - type: checkboxes
-     id: swag
-     attributes:
-       label: Swag Needed
-       description: Check the types of swag needed for this event.
-       options:
-         - label: Hoodies
-         - label: Shirts
-         - label: Socks
-         - label: Stickers
-         - label: Key Chains
+  - type: checkboxes
+    id: swag
+    attributes:
+      label: Swag Needed
+      description: Check the types of swag needed for this event.
+      options:
+        - label: Hoodies
+        - label: Shirts
+        - label: Socks
+        - label: Stickers
+        - label: Key Chains
  
-        #   - type: dropdown
-        #     id: alcohol
-        #     attributes:
-        #       label: Will you need to sponsor alcohol?
-        #       options:
-        #         - Yes
-        #         - No
+  - type: dropdown
+    id: alcohol
+    attributes:
+      label: Will you need to sponsor alcohol?
+      options:
+        - Yes
+        - No
 
   - type: textarea
     id: planning
