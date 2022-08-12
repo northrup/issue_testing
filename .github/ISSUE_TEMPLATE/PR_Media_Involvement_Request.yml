@@ -25,15 +25,15 @@ body:
     validations:
       required: false
     attributes:
-      description: Please include the event capaign tag if it is needed
-      label: What is the event cammpaign tag?
+      description: Please include the event campaign tag if it is needed
+      label: What is the event campaign tag?
 
   - type: textarea
     id: who
     validations:
       required: true
     attributes:
-      label: ":girl: Who?"
+      label: :girl: Who?
       value: |
         * Who are we trying to bring to the event?
         * Contact info for guest(s)
