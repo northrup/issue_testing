@@ -86,7 +86,6 @@ body:
     id: alcohol
     attributes:
       label: Will you need to sponsor alcohol?
-      multiple: false
       options:
         - Yes
         - No
