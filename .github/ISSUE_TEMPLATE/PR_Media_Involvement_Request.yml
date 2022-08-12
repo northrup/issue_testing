@@ -2,6 +2,7 @@ name: PR Media Involvement Request
 description: Fill out this form to request PR supoort for an event.
 title: "PR Media Involvement for [event name]"
 labels: ["Corporate Event", "PR Request", "Events"]
+assignees: northrup
 
 body:
   - type: input
