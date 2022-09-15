@@ -87,8 +87,8 @@ body:
     attributes:
       label: Will you need to sponsor alcohol?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
 
   - type: textarea
     id: planning
